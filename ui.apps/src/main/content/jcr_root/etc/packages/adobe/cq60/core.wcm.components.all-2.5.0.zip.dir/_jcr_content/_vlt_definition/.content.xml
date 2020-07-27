@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2019-06-25T12:45:16.546Z"
+    jcr:createdBy="circleci"
+    jcr:description="A set of standardized components for AEM 6.3+ that can be used to speed up development of websites."
+    jcr:primaryType="vlt:PackageDefinition"
+    dependencies="[day/cq60/product:cq-platform-content:1.3.248,hackathon:hackathon.ui.apps:[1.0-SNAPSHOT\,1.0-SNAPSHOT]]"
+    group="adobe/cq60"
+    lastUnpacked="{Date}2020-01-21T20:03:41.254+05:30"
+    lastUnpackedBy="admin"
+    lastUnwrapped="{Date}2020-01-21T20:03:40.812+05:30"
+    name="core.wcm.components.all"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    subPackages="[]"
+    version="2.5.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/core/wcm/install"
+            rules="[exclude:/apps/core/wcm/install/core\\.wcm\\.components\\.extension\\..*]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/packages/adobe/cq60/core.wcm.components.content-2.5.0.zip"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/packages/adobe/cq60/core.wcm.components.config-2.5.0.zip"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2019-06-25T12:45:19.166Z"
+    jcr:createdBy="circleci"
+    jcr:description="A set of standardized components for AEM 6.3+ that can be used to speed up development of websites."
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="merge_preserve"
+    dependencies="[day/cq60/product:cq-platform-content:1.3.248,hackathon:hackathon.ui.apps:[1.0-SNAPSHOT\,1.0-SNAPSHOT]]"
+    group="adobe/cq60"
+    lastUnwrapped="{Date}2020-01-21T20:03:40.882+05:30"
+    name="core.wcm.components.examples"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="2.5.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/core-components-examples"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/conf/core-components-examples"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/core-components-examples"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/cq:tags/core-components-examples"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/core-components-examples"
+            rules="[]"/>
+    </filter>
+</jcr:root>

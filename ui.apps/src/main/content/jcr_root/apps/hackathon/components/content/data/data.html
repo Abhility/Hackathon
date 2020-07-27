@@ -1,0 +1,25 @@
+<div
+  class="container mt-4"
+  data-sly-use.userModel="com.mindtree.hackathon.core.models.DataModel"
+>
+  <ul class="list-group" data-sly-list.user="${userModel.users}">
+  
+    <li class="list-group-item">
+      <div class="jumbotron">
+        <h2 class="display-4">${user.name}</h2>
+        <p class="lead">
+          ${user.email}
+        </p>
+        <hr class="my-4" />
+        <p>
+          Age: ${user.age} | Date of birth: ${user.birthdate.toString}
+        </p>
+        <span
+          class="badge badge-pill badge-primary p-3"
+          style="background-color: ${user.color @ context='styleToken'}; font-size: 15px "
+          >Favorite Color: ${user.color}</span
+        >
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="hackathon">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <images/>
+    <receiptsReceipt2.pdf/>
+    <receiptsReceipt1.pdf/>
+    <Screenshot_x0020__x0028_3_x0029_.png/>
+    <Screenshot_x0020__x0028_4_x0029_.png/>
+    <Screenshot_x0020__x0028_5_x0029_.png/>
+    <Screenshot_x0020__x0028_6_x0029_.png/>
+    <Screenshot_x0020__x0028_7_x0029_.png/>
+    <Screenshot_x0020__x0028_8_x0029_.png/>
+    <Screenshot_x0020__x0028_9_x0029_.png/>
+    <Screenshot_x0020__x0028_10_x0029_.png/>
+    <Screenshot_x0020__x0028_11_x0029_.png/>
+    <Screenshot_x0020__x0028_12_x0029_.png/>
+    <Screenshot_x0020__x0028_13_x0029_.png/>
+    <Screenshot_x0020__x0028_14_x0029_.png/>
+    <Screenshot_x0020__x0028_15_x0029_.png/>
+    <Screenshot_x0020__x0028_16_x0029_.png/>
+    <Screenshot_x0020__x0028_17_x0029_.png/>
+    <Screenshot_x0020__x0028_18_x0029_.png/>
+    <Screenshot_x0020__x0028_19_x0029_.png/>
+    <Screenshot_x0020__x0028_20_x0029_.png/>
+    <Screenshot_x0020__x0028_21_x0029_.png/>
+</jcr:root>

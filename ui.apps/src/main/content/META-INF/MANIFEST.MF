@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /apps/hackathon,/etc/packages/adobe/cq60/core.w
+ cm.components.examples-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.co
+ mponents.all-2.5.0.zip
+Content-Package-Type: mixed
+Content-Package-Id: hackathon:hackathon.ui.apps:1.0-SNAPSHOT
+Content-Package-Description: UI apps package for hackathon
+

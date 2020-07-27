@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>FileVault Package Properties</comment>
+<entry key="createdBy">admin</entry>
+<entry key="name">hackathon.ui.apps</entry>
+<entry key="lastModified">2020-01-22T16:15:28.427+05:30</entry>
+<entry key="lastModifiedBy">admin</entry>
+<entry key="requiresRestart">false</entry>
+<entry key="created">2020-01-22T16:15:28.473+05:30</entry>
+<entry key="buildCount">1</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">mixed</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies"/>
+<entry key="packageFormatVersion">2</entry>
+<entry key="description">UI apps package for hackathon</entry>
+<entry key="group">hackathon</entry>
+<entry key="lastWrapped">2020-01-22T16:15:28.427+05:30</entry>
+<entry key="lastWrappedBy">admin</entry>
+</properties>

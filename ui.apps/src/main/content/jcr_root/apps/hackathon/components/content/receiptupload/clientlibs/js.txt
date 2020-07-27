@@ -1,0 +1,4 @@
+js/jquery.js
+js/sweetalert.min.js
+js/ocr.js
+js/damupload.js

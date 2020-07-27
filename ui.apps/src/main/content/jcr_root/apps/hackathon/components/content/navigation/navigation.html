@@ -1,0 +1,35 @@
+<sly data-sly-use.header="com.mindtree.hackathon.core.models.HeaderModel">
+   <sly data-sly-test="${header.style == 'primary'}">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light row justify-content-between">
+   </sly>
+   <sly data-sly-test="${header.style == 'secondary'}">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary row justify-content-between">
+    </sly>
+    <sly data-sly-test="${header.style == 'dark'}">
+    <nav  class="navbar navbar-expand-lg navbar-dark bg-dark row justify-content-between">
+    </sly>
+    <div class="col-1"></div>
+    <a class="col-3 navbar-brand" href="#"><img src="${header.logo}" height="50px" width="50px" alt="${header.title}"/><span class="ml-2">${header.title}</span></a>
+    <div class="col">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav" data-sly-list.link=${header.links}>
+        <li class="nav-item">
+          <a class="nav-link" href="${link.linkPath}.html">${link.linkName}</a>
+        </li>
+      </ul>
+    </div>
+</div>
+<div class="col-1"></div>
+  </nav>
+</sly>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Select item type"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <item-type
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                emptyText="Select item type"
+                name="./type">
+                <items jcr:primaryType="nt:unstructured">
+                    <gadgets
+                        jcr:primaryType="nt:unstructured"
+                        text="Gadgets"
+                        value="gadgets"/>
+                    <fruits
+                        jcr:primaryType="nt:unstructured"
+                        text="Fruits"
+                        value="fruits"/>
+                    <veggies
+                        jcr:primaryType="nt:unstructured"
+                        text="Veggies"
+                        value="veggies"/>
+                </items>
+            </item-type>
+        </items>
+    </content>
+</jcr:root>
