@@ -1,0 +1,4 @@
+css/fontawesome.min.css
+css/bootstrap.min.css
+css/all.css
+css/style.css
